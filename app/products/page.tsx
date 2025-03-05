@@ -6,30 +6,15 @@ import AnimateOnScroll from "@/components/animate-on-scroll"
 export const metadata: Metadata = {
   title: "Our Products",
   description:
-    "Explore our range of premium kitchen chimneys including GO Prime, GO Smart, GO Curved, GO Black Platinum, GO Galaxy Edge, and GO 3D models.",
+    "Explore our range of premium kitchen chimneys including GO , GO Smart, GO Curved, GO Black Platinum, GO Galaxy Edge, and GO 3D models.",
 }
 
 // Product data
 const products = [
   {
-    id: "go-prime",
-    name: "GO Prime",
-    image: "/product_1.svg",
-    specs: {
-      finish: "BLACK FINISH",
-      suction: "1500 m³/h. Size: 900 mm / 600 mm",
-      control: "Motion Sensor with Touch Control",
-      filter: "Filter Less with Auto Clean",
-      motorType: "Copper wire Motor (Sealed Pack)",
-      lamp: "2 x 1.5 W LED LIGHT",
-      motorPower: "180 W",
-      noiseLevel: "L58 db(a)",
-    },
-  },
-  {
     id: "go-smart",
     name: "GO Smart",
-    image: "/product_3.svg",
+    image: "/go_smart.svg",
     specs: {
       finish: "BLACK FINISH",
       suction: "1500 m³/h. Size: 900 mm / 600 mm",
@@ -44,7 +29,7 @@ const products = [
   {
     id: "go-curved",
     name: "GO Curved",
-    image: "/product_3.svg",
+    image: "/go_curved.svg",
     specs: {
       finish: "Black Coating + Toughened Glass",
       suction: "1500 m³/h. Size: 900 mm",
@@ -59,7 +44,7 @@ const products = [
   {
     id: "go-black-platinum",
     name: "GO Black Platinum",
-    image: "/product_2.svg",
+    image: "/go_black_platinum.svg",
     specs: {
       finish: "BLACK Coating + Toughened Glass",
       suction: "1500 m³/h. Size: 900 mm",
@@ -74,7 +59,7 @@ const products = [
   {
     id: "go-galaxy-edge",
     name: "GO Galaxy Edge",
-    image: "/product_3.svg",
+    image: "/go_galaxy_edge.svg",
     specs: {
       finish: "BLACK FINISH",
       suction: "1500 m³/h. Size: 900 mm",
@@ -89,7 +74,7 @@ const products = [
   {
     id: "go-3d",
     name: "GO 3D",
-    image: "/product_2.svg",
+    image: "/go_3d.svg",
     specs: {
       finish: "BLACK FINISH",
       suction: "2200 m³/h. Size: 900 mm",

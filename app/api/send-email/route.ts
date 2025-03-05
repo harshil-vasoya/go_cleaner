@@ -114,14 +114,14 @@ export async function POST(request: Request) {
     // Email options
     const mailOptions = {
       from: "GO Cleaner <harshil9915vasoya@gmail.com>",
-      to:  "ptakodra16@gmail.com.com",
+      to:  "gocleanerchimney@gmail.com.com",
       subject: `GO Cleaner Inquiry: ${subject}`,
       html: htmlContent,
       replyTo: email,
     }
 
     // Send email
-    console.log("Attempting to send email to ptakodra16@gmail.com.com")
+    console.log("Attempting to send email to gocleanerchimney@gmail.com.com")
     const info = await transporter.sendMail(mailOptions)
     console.log("Email sent successfully:", info.messageId)
 

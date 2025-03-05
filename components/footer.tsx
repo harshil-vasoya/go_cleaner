@@ -73,15 +73,6 @@ export default function Footer() {
               <ul className="space-y-2">
                 <li>
                   <Link
-                    href="/products/go-prime"
-                    className="text-sm hover:text-primary transition-colors duration-300 flex items-center group"
-                  >
-                    <span className="w-0 h-0.5 bg-primary mr-0 group-hover:w-2 group-hover:mr-1 transition-all duration-300"></span>
-                    GO Prime
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="/products/go-smart"
                     className="text-sm hover:text-primary transition-colors duration-300 flex items-center group"
                   >
@@ -140,7 +131,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-2 hover-float">
                   <Mail size={16} />
-                  <span className="text-sm">info@gocleaner.com</span>
+                  <span className="text-sm">gocleanerchimney@gmail.com</span>
                 </li>
                 <li className="flex items-start gap-2 hover-float">
                   <MapPin size={16} className="mt-1 flex-shrink-0" />

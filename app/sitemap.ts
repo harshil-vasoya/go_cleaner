@@ -4,7 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://gocleaner.com"
 
   // Product IDs
-  const productIds = ["go-prime", "go-smart", "go-curved", "go-black-platinum", "go-galaxy-edge", "go-3d"]
+  const productIds = [ "go-smart", "go-curved", "go-black-platinum", "go-galaxy-edge", "go-3d"]
 
   // Generate product URLs
   const productUrls = productIds.map((id) => ({

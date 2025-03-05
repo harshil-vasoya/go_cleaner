@@ -52,7 +52,7 @@ export default function ContactPage() {
               "@type": "Organization",
               name: "GO Cleaner",
               telephone: "+918200066085",
-              email: "info@gocleaner.com",
+              email: "gocleanerchimney@gmail.com",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Industrial Area",

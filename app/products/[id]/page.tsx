@@ -7,33 +7,10 @@ import AnimateOnScroll from "@/components/animate-on-scroll"
 
 // Product data
 const products = {
-  "go-prime": {
-    name: "GO Prime",
-    image: "/product_1.svg",
-    description:
-      "The GO Prime is our flagship model, combining elegant design with powerful performance. Its sleek black finish complements any modern kitchen while providing exceptional ventilation.",
-    specs: {
-      finish: "BLACK FINISH",
-      suction: "1500 m³/h. Size: 900 mm / 600 mm",
-      control: "Motion Sensor with Touch Control",
-      filter: "Filter Less with Auto Clean",
-      motorType: "Copper wire Motor (Sealed Pack)",
-      lamp: "2 x 1.5 W LED LIGHT",
-      motorPower: "180 W",
-      noiseLevel: "L58 db(a)",
-    },
-    features: [
-      "Touch-free operation with motion sensors",
-      "Filter-less design for maximum suction efficiency",
-      "Auto-clean technology for easy maintenance",
-      "Energy-efficient LED lighting",
-      "100% copper winding motors for durability",
-      "Sleek black finish that complements any kitchen design",
-    ],
-  },
+  
   "go-smart": {
     name: "GO Smart",
-    image: "/product_3.svg",
+    image: "/go_smart.svg",
     description:
       "The GO Smart combines intelligent features with powerful performance. With its enhanced LED lighting and robust motor, it provides superior ventilation while adding a touch of sophistication to your kitchen.",
     specs: {
@@ -57,7 +34,7 @@ const products = {
   },
   "go-curved": {
     name: "GO Curved",
-    image: "/product_3.svg",
+    image: "/go_curved.svg",
     description:
       "The GO Curved features a distinctive curved glass design that adds a modern aesthetic to your kitchen. Its combination of black coating and toughened glass creates a stunning visual appeal while delivering powerful ventilation.",
     specs: {
@@ -81,7 +58,7 @@ const products = {
   },
   "go-black-platinum": {
     name: "GO Black Platinum",
-    image: "/product_2.svg",
+    image: "/go_black_platinum.svg",
     description:
       "The GO Black Platinum offers a premium look with its black coating and toughened glass construction. It combines sophisticated aesthetics with powerful performance to enhance your kitchen experience.",
     specs: {
@@ -105,7 +82,7 @@ const products = {
   },
   "go-galaxy-edge": {
     name: "GO Galaxy Edge",
-    image: "/product_3.svg",
+    image: "/go_galaxy_edge.svg",
     description:
       "The GO Galaxy Edge features a cutting-edge design with enhanced LED lighting that creates a stunning visual effect in your kitchen. Its powerful motor ensures efficient ventilation for a smoke-free cooking experience.",
     specs: {
@@ -129,7 +106,7 @@ const products = {
   },
   "go-3d": {
     name: "GO 3D",
-    image: "/product_2.svg",
+    image: "/go_3d.svg",
     description:
       "The GO 3D is our most advanced model, featuring voice control and three-way suction for unparalleled performance. With its superior suction capacity and innovative features, it represents the future of kitchen ventilation.",
     specs: {

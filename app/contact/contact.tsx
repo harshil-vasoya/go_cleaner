@@ -155,10 +155,10 @@ export default function Contact() {
                 <h3 className="text-xl font-bold mb-2">Email Us</h3>
                 <p className="text-gray-600 mb-2">For Inquiries</p>
                 <a
-                  href="mailto:info@gocleaner.com"
+                  href="mailto:gocleanerchimney@gmail.com"
                   className="text-primary font-medium hover:underline transition-all duration-300"
                 >
-                  info@gocleaner.com
+                  gocleanerchimney@gmail.com
                 </a>
               </div>
             </AnimateOnScroll>

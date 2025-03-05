@@ -45,23 +45,23 @@ export default function Header() {
           <div className="flex items-center space-x-6 text-sm">
             <div className="flex items-center">
               <Mail size={14} className="mr-2" />
-              <span>info@gocleaner.com</span>
+              <span>gocleanerchimney@gmail.com</span>
             </div>
             <div className="flex items-center">
               <MapPin size={14} className="mr-2" />
-              <span>GO Cleaner, Industrial Area, India</span>
+              <span>THE CHIMNEY SHOPEE TAGORE ROAD GODOWN ROAD KRISHNA COMPLEX CORNER. RAJKOT</span>
             </div>
           </div>
           <div className="flex items-center space-x-4">
-            <a href="#" aria-label="Facebook" className="hover:opacity-80 transition-opacity">
+            {/* <a href="#" aria-label="Facebook" className="hover:opacity-80 transition-opacity">
               <Facebook size={16} />
-            </a>
-            <a href="#" aria-label="Instagram" className="hover:opacity-80 transition-opacity">
+            </a> */}
+            <a href="https://www.instagram.com/jkm_hardware_hub?igsh=MTgxcTg4dmlkajQ1dA%3D%3D" target="_blank" aria-label="Instagram" className="hover:opacity-80 transition-opacity">
               <Instagram size={16} />
             </a>
-            <a href="#" aria-label="Twitter" className="hover:opacity-80 transition-opacity">
+            {/* <a href="#" aria-label="Twitter" className="hover:opacity-80 transition-opacity">
               <Twitter size={16} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -209,15 +209,15 @@ export default function Header() {
             </div>
 
             <div className="flex justify-center space-x-6 pt-2">
-              <a href="#" aria-label="Facebook" className="text-gray-600 hover:text-primary transition-colors">
+              {/* <a href="#" aria-label="Facebook" className="text-gray-600 hover:text-primary transition-colors">
                 <Facebook size={20} />
-              </a>
-              <a href="#" aria-label="Instagram" className="text-gray-600 hover:text-primary transition-colors">
+              </a> */}
+              <a  href="https://www.instagram.com/jkm_hardware_hub?igsh=MTgxcTg4dmlkajQ1dA%3D%3D" target="_blank" aria-label="Instagram" className="text-gray-600 hover:text-primary transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" aria-label="Twitter" className="text-gray-600 hover:text-primary transition-colors">
+              {/* <a href="#" aria-label="Twitter" className="text-gray-600 hover:text-primary transition-colors">
                 <Twitter size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

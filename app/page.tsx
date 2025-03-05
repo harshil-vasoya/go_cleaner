@@ -141,38 +141,12 @@ export default function Home() {
           </AnimateOnScroll>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Product 1 */}
-            <AnimateOnScroll animation="slide-up" delay={100}>
-              <div className="bg-white rounded-lg overflow-hidden shadow-md hover-grow hover-glow">
-                <div className="relative h-64">
-                  <Image
-                    src="/product_1.svg"
-                    alt="GO Prime Kitchen Chimney"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">GO Prime</h3>
-                  <ul className="space-y-1 text-sm text-gray-600 mb-4">
-                    <li>• Black Finish</li>
-                    <li>• 1500 m³/h Suction Capacity</li>
-                    <li>• Motion Sensor with Touch Control</li>
-                    <li>• Filter Less with Auto Clean</li>
-                  </ul>
-                  <Link href="/products/go-prime" className="text-primary font-medium hover:underline">
-                    View Details →
-                  </Link>
-                </div>
-              </div>
-            </AnimateOnScroll>
-
             {/* Product 2 */}
             <AnimateOnScroll animation="slide-up" delay={200}>
               <div className="bg-white rounded-lg overflow-hidden shadow-md hover-grow hover-glow">
                 <div className="relative h-64">
                   <Image
-                    src="/product_3.svg"
+                    src="/go_smart.svg"
                     alt="GO Smart Kitchen Chimney"
                     fill
                     className="object-cover"
@@ -198,7 +172,7 @@ export default function Home() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md hover-grow hover-glow">
                 <div className="relative h-64">
                   <Image
-                    src="/product_2.svg"
+                    src="/go_3d.svg"
                     alt="GO 3D Kitchen Chimney"
                     fill
                     className="object-cover"
@@ -211,6 +185,31 @@ export default function Home() {
                     <li>• 2200 m³/h Suction Capacity</li>
                     <li>• Motion Sensor & Voice Control</li>
                     <li>• Three Way Suction</li>
+                  </ul>
+                  <Link href="/products/go-3d" className="text-primary font-medium hover:underline">
+                    View Details →
+                  </Link>
+                </div>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll animation="slide-up" delay={300}>
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover-grow hover-glow">
+                <div className="relative h-64">
+                  <Image
+                    src="/go_galaxy_edge.svg"
+                    alt="GO 3D Kitchen Chimney"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2">Galaxy Edge</h3>
+                  <ul className="space-y-1 text-sm text-gray-600 mb-4">
+                    <li>• Black Coating + Toughened Glass</li>
+                    <li>• 1500 m³/h suction capacity Size: 900 mm</li>
+                    <li>• Motion Sensor with Touch Control</li>
+                    <li>• 20" POWER FULL LED LIGHT</li>
                   </ul>
                   <Link href="/products/go-3d" className="text-primary font-medium hover:underline">
                     View Details →
@@ -258,7 +257,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-4">
-                  "The GO Prime chimney has transformed my kitchen experience. No more smoke and the auto-clean feature
+                  "The Curved chimney has transformed my kitchen experience. No more smoke and the auto-clean feature
                   is a game changer!"
                 </p>
                 <div className="font-medium">- Priya Sharma</div>
