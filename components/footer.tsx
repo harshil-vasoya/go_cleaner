@@ -135,31 +135,27 @@ export default function Footer() {
                 </li>
                 <li className="flex items-start gap-2 hover-float">
                   <MapPin size={16} className="mt-1 flex-shrink-0" />
-                  <span className="text-sm">GO Cleaner Headquarters, Industrial Area, India</span>
+                  <span className="text-sm">THE CHIMNEY SHOPEE TAGORE ROAD GODOWN ROAD KRISHNA COMPLEX CORNER. RAJKOT</span>
                 </li>
               </ul>
               <div className="flex space-x-4 pt-2">
-                <a
+                {/* <a
                   href="#"
                   aria-label="Facebook"
                   className="hover:text-primary transition-colors duration-300 transform hover:scale-110"
                 >
                   <Facebook size={20} />
-                </a>
-                <a
-                  href="#"
-                  aria-label="Instagram"
-                  className="hover:text-primary transition-colors duration-300 transform hover:scale-110"
-                >
-                  <Instagram size={20} />
-                </a>
-                <a
+                </a> */}
+               <a href="https://www.instagram.com/jkm_hardware_hub?igsh=MTgxcTg4dmlkajQ1dA%3D%3D" target="_blank" aria-label="Instagram" className="hover:opacity-80 transition-opacity">
+              <Instagram size={16} />
+            </a>
+                {/* <a
                   href="#"
                   aria-label="Twitter"
                   className="hover:text-primary transition-colors duration-300 transform hover:scale-110"
                 >
                   <Twitter size={20} />
-                </a>
+                </a> */}
               </div>
             </div>
           </AnimateOnScroll>

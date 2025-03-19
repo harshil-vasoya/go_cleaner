@@ -325,7 +325,7 @@ export default function Contact() {
       </section>
 
       {/* Dealers Section */}
-      <section className="section-padding bg-gray-50">
+      {/* <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <AnimateOnScroll animation="slide-up">
             <div className="text-center mb-12">
@@ -377,7 +377,7 @@ export default function Contact() {
             </AnimateOnScroll>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

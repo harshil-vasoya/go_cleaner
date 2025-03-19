@@ -1,6 +1,6 @@
 import Image from "next/image"
 import type { Metadata } from "next"
-import { Award, CheckCircle, Users, Clock } from "lucide-react"
+import { Award, CheckCircle, Users, Clock, Mail, Phone } from "lucide-react"
 import AnimateOnScroll from "@/components/animate-on-scroll"
 
 export const metadata: Metadata = {
@@ -52,7 +52,7 @@ export default function About() {
           <AnimateOnScroll animation="slide-in-right">
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/about-us.svg"
                 alt="GO Cleaner Story"
                 fill
                 className="object-cover rounded-lg"
@@ -62,8 +62,66 @@ export default function About() {
         </div>
       </section>
 
-      {/* Our Values */}
+      {/* CEO Section */}
       <section className="section-padding bg-gray-50">
+        <div className="container-custom">
+          <AnimateOnScroll animation="slide-up">
+            <div className="text-center mb-12">
+              <h2 className="mb-4">Leadership</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Meet the visionary behind GO Cleaner who leads our company with passion and innovation.
+              </p>
+            </div>
+          </AnimateOnScroll>
+
+          <div className="max-w-4xl mx-auto">
+            <AnimateOnScroll animation="slide-up" delay={100}>
+              <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="grid md:grid-cols-3 gap-0">
+                  <div className="relative h-[300px] md:h-full">
+                    <Image
+                      src="/placeholder.svg?height=400&width=300"
+                      alt="Milan Limbasiya - CEO"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="md:col-span-2 p-8">
+                    <h3 className="text-2xl font-bold mb-2">Milan Limbasiya</h3>
+                    <p className="text-primary font-medium mb-4">Founder & Chief Executive Officer</p>
+
+                    <p className="text-gray-700 mb-6">
+                      With over 20 years of experience in the kitchen appliance industry, Milan Limbasiya founded GO
+                      Cleaner with a vision to transform kitchen ventilation. His passion for innovation and commitment
+                      to quality has driven the company to become a leading manufacturer of premium kitchen chimneys in
+                      India.
+                    </p>
+
+                    <p className="text-gray-700 mb-6">
+                      Under his leadership, GO Cleaner has pioneered several innovations including filter-less design,
+                      auto-clean technology, and motion sensor controls that have set new standards in the industry.
+                    </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                      <div className="flex items-center gap-2 text-gray-700">
+                        <Mail size={18} className="text-primary" />
+                        <span>milan@gocleaner.com</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-gray-700">
+                        <Phone size={18} className="text-primary" />
+                        <span>+91 82000 66085</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Values */}
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <AnimateOnScroll animation="slide-up">
             <div className="text-center mb-12">
@@ -76,7 +134,7 @@ export default function About() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <AnimateOnScroll animation="slide-up" delay={100}>
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center hover-float hover-glow">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm text-center hover-float hover-glow">
                 <div className="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Award className="text-white" size={28} />
                 </div>
@@ -88,7 +146,7 @@ export default function About() {
             </AnimateOnScroll>
 
             <AnimateOnScroll animation="slide-up" delay={200}>
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center hover-float hover-glow">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm text-center hover-float hover-glow">
                 <div className="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="text-white" size={28} />
                 </div>
@@ -100,7 +158,7 @@ export default function About() {
             </AnimateOnScroll>
 
             <AnimateOnScroll animation="slide-up" delay={300}>
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center hover-float hover-glow">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm text-center hover-float hover-glow">
                 <div className="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Users className="text-white" size={28} />
                 </div>
@@ -112,7 +170,7 @@ export default function About() {
             </AnimateOnScroll>
 
             <AnimateOnScroll animation="slide-up" delay={400}>
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center hover-float hover-glow">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm text-center hover-float hover-glow">
                 <div className="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Clock className="text-white" size={28} />
                 </div>
@@ -127,7 +185,7 @@ export default function About() {
       </section>
 
       {/* Our Commitment */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <AnimateOnScroll animation="slide-up">
             <div className="max-w-3xl mx-auto text-center">
@@ -138,14 +196,14 @@ export default function About() {
                 aim to transform your cooking experience.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 p-6 rounded-lg text-left hover-float hover-glow">
+                <div className="bg-white p-6 rounded-lg text-left hover-float hover-glow">
                   <h3 className="text-xl font-bold mb-3">Environmental Responsibility</h3>
                   <p className="text-gray-600">
                     We are committed to reducing our environmental footprint through sustainable manufacturing practices
                     and energy-efficient products.
                   </p>
                 </div>
-                <div className="bg-gray-50 p-6 rounded-lg text-left hover-float hover-glow">
+                <div className="bg-white p-6 rounded-lg text-left hover-float hover-glow">
                   <h3 className="text-xl font-bold mb-3">Customer Support</h3>
                   <p className="text-gray-600">
                     Our dedicated customer support team is always ready to assist you with any queries or concerns about
@@ -158,64 +216,44 @@ export default function About() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="section-padding bg-gray-50">
+      {/* Company Facts */}
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <AnimateOnScroll animation="slide-up">
             <div className="text-center mb-12">
-              <h2 className="mb-4">Meet Our Team</h2>
+              <h2 className="mb-4">Company Facts</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                The passionate individuals behind GO Cleaner who work tirelessly to bring you the best kitchen chimneys.
+                GO Cleaner has grown steadily since our founding, reaching significant milestones along the way.
               </p>
             </div>
           </AnimateOnScroll>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-4 gap-8">
             <AnimateOnScroll animation="slide-up" delay={100}>
-              <div className="bg-white rounded-lg overflow-hidden shadow-sm hover-grow hover-glow">
-                <div className="relative h-64">
-                  <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
-                </div>
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold mb-1">Rajesh Kumar</h3>
-                  <p className="text-primary mb-3">Founder & CEO</p>
-                  <p className="text-gray-600">
-                    With over 20 years of experience in the kitchen appliance industry, Rajesh leads our company with
-                    vision and passion.
-                  </p>
-                </div>
+              <div className="bg-gray-50 p-6 rounded-lg text-center hover-float hover-glow">
+                <div className="text-4xl font-bold text-primary mb-2">2010</div>
+                <p className="text-gray-700">Year Founded</p>
               </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll animation="slide-up" delay={200}>
-              <div className="bg-white rounded-lg overflow-hidden shadow-sm hover-grow hover-glow">
-                <div className="relative h-64">
-                  <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
-                </div>
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold mb-1">Priya Sharma</h3>
-                  <p className="text-primary mb-3">Head of Design</p>
-                  <p className="text-gray-600">
-                    Priya brings her creative expertise to ensure our chimneys are not just functional but also
-                    aesthetically pleasing.
-                  </p>
-                </div>
+              <div className="bg-gray-50 p-6 rounded-lg text-center hover-float hover-glow">
+                <div className="text-4xl font-bold text-primary mb-2">50+</div>
+                <p className="text-gray-700">Team Members</p>
               </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll animation="slide-up" delay={300}>
-              <div className="bg-white rounded-lg overflow-hidden shadow-sm hover-grow hover-glow">
-                <div className="relative h-64">
-                  <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
-                </div>
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold mb-1">Vikram Singh</h3>
-                  <p className="text-primary mb-3">Chief Technology Officer</p>
-                  <p className="text-gray-600">
-                    Vikram leads our R&D team, constantly pushing the boundaries of what's possible in kitchen
-                    ventilation technology.
-                  </p>
-                </div>
+              <div className="bg-gray-50 p-6 rounded-lg text-center hover-float hover-glow">
+                <div className="text-4xl font-bold text-primary mb-2">10,000+</div>
+                <p className="text-gray-700">Happy Customers</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll animation="slide-up" delay={400}>
+              <div className="bg-gray-50 p-6 rounded-lg text-center hover-float hover-glow">
+                <div className="text-4xl font-bold text-primary mb-2">100+</div>
+                <p className="text-gray-700">Dealer Network</p>
               </div>
             </AnimateOnScroll>
           </div>
