@@ -40,7 +40,7 @@ export async function POST(request: Request) {
             margin: 0 auto;
           }
           .header {
-            background-color: #009688;
+            background-color: #00bacd;
             color: white;
             padding: 20px;
             text-align: center;
@@ -68,7 +68,7 @@ export async function POST(request: Request) {
           .message-box {
             background-color: #f9f9f9;
             padding: 15px;
-            border-left: 4px solid #009688;
+            border-left: 4px solid #00bacd;
             margin: 15px 0;
           }
         </style>

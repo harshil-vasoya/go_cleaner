@@ -18,11 +18,11 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "rgb(0, 150, 136)",
+          DEFAULT: "rgb(0, 186, 205)",
           foreground: "rgb(255, 255, 255)",
         },
         secondary: {
-          DEFAULT: "rgb(51, 51, 51)",
+          DEFAULT: "rgb(0, 78, 102)",
           foreground: "rgb(255, 255, 255)",
         },
         destructive: {
@@ -34,7 +34,7 @@ module.exports = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "rgb(0, 128, 128)",
+          DEFAULT: "rgb(0, 150, 175)",
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {

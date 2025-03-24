@@ -6,11 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 245, 245, 245;
-  --primary: 75, 199, 208;
+  --primary: 0, 186, 205;
   --primary-foreground: 255, 255, 255;
-  --secondary: 51, 51, 51;
+  --secondary: 0, 78, 102;
   --secondary-foreground: 255, 255, 255;
-  --accent: 0, 128, 128;
+  --accent: 0, 150, 175;
 }
 
 body {
@@ -35,7 +35,7 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply bg-teal-600 text-white px-6 py-3 rounded-md font-medium hover:bg-teal-700 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg;
+    @apply bg-primary text-white px-6 py-3 rounded-md font-medium hover:bg-[#0096af] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg;
   }
   .btn-secondary {
     @apply bg-gray-800 text-white px-6 py-3 rounded-md font-medium hover:bg-gray-900 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg;

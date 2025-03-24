@@ -33,7 +33,7 @@ export async function POST(request: Request) {
             margin: 0 auto;
           }
           .header {
-            background-color: #009688;
+            background-color: #00bacd;
             color: white;
             padding: 20px;
             text-align: center;
@@ -54,7 +54,7 @@ export async function POST(request: Request) {
           }
           .button {
             display: inline-block;
-            background-color: #009688;
+            background-color: #00bacd;
             color: white;
             padding: 10px 20px;
             text-decoration: none;

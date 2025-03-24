@@ -147,7 +147,7 @@ export default function Footer() {
                   <Facebook size={20} />
                 </a> */}
                <a href="https://www.instagram.com/jkm_hardware_hub?igsh=MTgxcTg4dmlkajQ1dA%3D%3D" target="_blank" aria-label="Instagram" className="hover:opacity-80 transition-opacity">
-              <Instagram size={16} />
+              {/* <Instagram size={16} /> */}
             </a>
                 {/* <a
                   href="#"
