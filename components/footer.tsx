@@ -12,7 +12,7 @@ export default function Footer() {
           <AnimateOnScroll animation="slide-in-left">
             <div className="space-y-4">
               <div className="relative h-16 w-52 bg-white rounded-md p-3 hover-float">
-                <Image src="/logo.svg" alt="GO Cleaner Logo" fill className="object-contain" />
+                <Image src="/logo.png" alt="GO Cleaner Logo" fill className="object-contain" />
               </div>
               <p className="text-sm">GO Cleaner</p>
               <p className="text-sm">

@@ -75,7 +75,7 @@ export default function Header() {
         <div className="container-custom flex justify-between items-center">
           <Link href="/" className="flex items-center relative z-10">
             <div className="relative h-14 w-48 transition-transform duration-300 hover:scale-105">
-              <Image src="/logo.svg" alt="GO Cleaner Logo" fill className="object-contain" priority />
+              <Image src="/logo.png" alt="GO Cleaner Logo" fill className="object-contain" priority />
             </div>
           </Link>
 
