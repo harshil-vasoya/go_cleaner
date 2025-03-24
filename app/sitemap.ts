@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://gocleaner.com"
+  const baseUrl = "https://go-cleaner.com"
 
   // Product IDs
   const productIds = [ "go-smart", "go-curved", "go-black-platinum", "go-galaxy-edge", "go-3d"]

@@ -77,7 +77,7 @@ export async function POST(request: Request) {
           <p>If your matter is urgent, please feel free to call us directly at +91 82000 66085.</p>
           
           <p>
-            <a href="https://gocleaner.com/products" class="button">Explore Our Products</a>
+            <a href="https://go-cleaner.com/products" class="button">Explore Our Products</a>
           </p>
           
           <p>We appreciate your interest in GO Cleaner kitchen chimneys.</p>

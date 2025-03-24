@@ -345,7 +345,7 @@ export default function Contact() {
                   <br />
                   Phone: +91 98765 43210
                   <br />
-                  Email: delhi@gocleaner.com
+                  Email: delhi@go-cleaner.com
                 </address>
               </div>
             </AnimateOnScroll>
@@ -358,7 +358,7 @@ export default function Contact() {
                   <br />
                   Phone: +91 98765 43211
                   <br />
-                  Email: mumbai@gocleaner.com
+                  Email: mumbai@go-cleaner.com
                 </address>
               </div>
             </AnimateOnScroll>
@@ -371,7 +371,7 @@ export default function Contact() {
                   <br />
                   Phone: +91 98765 43212
                   <br />
-                  Email: bangalore@gocleaner.com
+                  Email: bangalore@go-cleaner.com
                 </address>
               </div>
             </AnimateOnScroll>

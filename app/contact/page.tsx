@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact GO Cleaner",
     description: "Get in touch with our team for product inquiries, demonstrations, or support.",
-    url: "https://gocleaner.com/contact",
+    url: "https://go-cleaner.com/contact",
     images: [
       {
         url: "/og-contact.jpg",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     images: ["/twitter-contact.jpg"],
   },
   alternates: {
-    canonical: "https://gocleaner.com/contact",
+    canonical: "https://go-cleaner.com/contact",
   },
 }
 

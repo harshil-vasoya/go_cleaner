@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://gocleaner.com/sitemap.xml",
+    sitemap: "https://go-cleaner.com/sitemap.xml",
   }
 }
 

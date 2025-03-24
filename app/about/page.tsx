@@ -105,7 +105,7 @@ export default function About() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
                       <div className="flex items-center gap-2 text-gray-700">
                         <Mail size={18} className="text-primary" />
-                        <span>milan@gocleaner.com</span>
+                        <span>milan@go-cleaner.com</span>
                       </div>
                       <div className="flex items-center gap-2 text-gray-700">
                         <Phone size={18} className="text-primary" />
