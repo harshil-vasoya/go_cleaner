@@ -106,7 +106,7 @@ const products = {
   },
   "go-3d": {
     name: "GO 3D",
-    image: "/go_3d.svg",
+    image: "/go_3d.jpg",
     description:
       "The GO 3D is our most advanced model, featuring voice control and three-way suction for unparalleled performance. With its superior suction capacity and innovative features, it represents the future of kitchen ventilation.",
     specs: {

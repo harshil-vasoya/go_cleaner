@@ -172,7 +172,7 @@ export default function Home() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md hover-grow hover-glow">
                 <div className="relative h-64">
                   <Image
-                    src="/go_3d.svg"
+                    src="/go_3d.jpg"
                     alt="GO 3D Kitchen Chimney"
                     fill
                     className="object-cover"

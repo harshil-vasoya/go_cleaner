@@ -74,7 +74,7 @@ const products = [
   {
     id: "go-3d",
     name: "GO 3D",
-    image: "/go_3d.svg",
+    image: "/go_3d.jpg",
     specs: {
       finish: "BLACK FINISH",
       suction: "2200 m³/h. Size: 900 mm",

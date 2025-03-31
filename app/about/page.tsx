@@ -80,7 +80,7 @@ export default function About() {
                 <div className="grid md:grid-cols-3 gap-0">
                   <div className="relative h-[300px] md:h-full">
                     <Image
-                      src="/placeholder.svg?height=400&width=300"
+                      src="/ceo.jpeg"
                       alt="Milan Limbasiya - CEO"
                       fill
                       className="object-cover"
